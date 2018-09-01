@@ -10,6 +10,7 @@ import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
+import android.view.View
 
 import br.com.livroandroid.carros.R
 import br.com.livroandroid.carros.adapter.TabsAdapter
@@ -32,7 +33,7 @@ class MainActivity : BaseActivity() , NavigationView.OnNavigationItemSelectedLis
         setupViewPagerTabs()
 
         // FAB (variável fab gerada automaticamente pelo Kotlin Extensions)
-        fab.setOnClickListener() {
+        fab.setOnClickListener {
             startActivity<CarroFormActivity>()
         }
     }

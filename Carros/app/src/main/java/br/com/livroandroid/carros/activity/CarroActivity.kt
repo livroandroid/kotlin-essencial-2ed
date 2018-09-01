@@ -8,6 +8,7 @@ import android.support.v4.content.ContextCompat
 import android.view.Menu
 import android.view.MenuItem
 import br.com.livroandroid.carros.R
+import br.com.livroandroid.carros.R.id.fab
 import br.com.livroandroid.carros.domain.Carro
 import br.com.livroandroid.carros.domain.CarroService
 import br.com.livroandroid.carros.domain.FavoritosService

@@ -152,7 +152,7 @@ open class CarrosFragment : BaseFragment() {
                     // Atualiza a lista
                     recyclerView.adapter = CarroAdapter(carros) { onClickCarro(it) }
 
-                })
+                })l
             }
         }.start()
     }*/
